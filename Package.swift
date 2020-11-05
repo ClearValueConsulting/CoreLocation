@@ -14,6 +14,7 @@ let package = Package(
     products: [
         .library(
             name: "PMKCoreLocation",
+            type: .dynamic,
             targets: ["PMKCoreLocation"]),
     ],
     dependencies: [
